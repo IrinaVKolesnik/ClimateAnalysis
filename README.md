@@ -1,5 +1,7 @@
-#Climate Analysis and Exploration
-## Plan
+# Climate Analysis and Exploration
+
+## Planning a vacation: climate analysis on the specific area.
+ 
 ```python
 #Step 3 - Climate Analysis and Exploration
 # climate_analysis.ipynb
@@ -193,7 +195,8 @@ stations_data = df_stations.to_dict(orient='records')
 #print(measurements_data)
 ```
 
-##Use SQLAlchemy create_engine to connect to sqlite database
+## Use SQLAlchemy create_engine to connect to sqlite database
+
 ```python
 #Use SQLAlchemy create_engine to connect to your sqlite database.
 #Use the engine and connection string to create a database called hawaii.sqlite.
@@ -312,6 +315,7 @@ trip_end = dt.date(2017, 8, 30)
 ```
 
 ## Precipitation Analysis
+
 ```python
 ### Precipitation Analysis
 
@@ -490,7 +494,8 @@ precip_stat_df.describe()
 
 
 
-##Station Analysis
+## Station Analysis
+
 ```python
 #Station Analysis
 session.query(Station.id, Station.station, Station.name, Station.latitude, Station.longitude, Station.elevation).all()
